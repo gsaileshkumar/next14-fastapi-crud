@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "todo-list"
+version = "0.1.0"
+description = ""
+authors = ["Sailesh Kumar <saileshkumar.gunasekaran@@lr.org>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = "^0.111.1"
+uvicorn = "^0.30.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
